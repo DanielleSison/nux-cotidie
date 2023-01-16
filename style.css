@@ -17,6 +17,7 @@ textarea {
 }
 
 .time-block {
+  display: flex;
   border-radius: 15px;
 }
 
