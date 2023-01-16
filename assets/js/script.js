@@ -72,7 +72,7 @@ $(document).ready(function () {
   
   // TODO: Add code to display the current date in the header of the page.
 
-let today = dayjs().format('MMM D, YYYY, dddd');
+let today = dayjs().format('MMM D, YYYY, dddd, hh:mm a');
 $('#currentDay').text("Today is " + today)
 
 
